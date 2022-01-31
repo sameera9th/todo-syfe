@@ -1,6 +1,5 @@
 import React from 'react';
 import { Action } from '../../types'
-import './index.css';
 
 const Button = ({
     dispatch = () => { },
