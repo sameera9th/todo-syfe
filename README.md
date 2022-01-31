@@ -1,4 +1,4 @@
-# Sample Todo App (React)
+# Sample Todo App (React | Typescript)
 
 This project is written using ReactJS with Typescript.
 
@@ -31,11 +31,13 @@ This is not an exhaustive list, just some worth noting
 ```
 ### Starting React Application
 
-> **First** - move to `/client`, then you need to intall dependencies using `npm install` or `yarn install` then you can start the dev server using `npm start` or `yarn start`. The defaul port for the react application is 3000, you can check if the application started successfully by visiting `http://localhost:3000`
+> **First** - You need to intall dependencies using `npm install` or `yarn install` then you can start the dev server using `npm start` or `yarn start`. The defaul port for the react application is 3000, you can check if the application started successfully by visiting `http://localhost:3000`
 
-### Run API tests
+### Run tests
 
 **First** -  You can run the tests using `npm run test` or `yarn run test`. Please note that test coverage is only for the main logic which are (Add, Edit, Delete, Reset Todos)
+
+Tests are inside (`src/reducer/reducer.test.ts`) (`src/utils/helpers.test.ts`)
 
 > **Note**: There are no test converage for User Interfaces.
 
